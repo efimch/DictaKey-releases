@@ -8,6 +8,19 @@
         <description>DictaKey macOS auto-update feed</description>
         <language>en</language>
         <item>
+            <title>Version 1.1.20-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Tue, 17 Nov 2026 11:19:29 +0000</pubDate>
+            <sparkle:version>139</sparkle:version>
+            <sparkle:shortVersionString>1.1.20-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink>https://github.com/efimch/DictaKey-releases/releases/tag/v1.1.20-beta.1</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://github.com/efimch/DictaKey-releases/releases/download/v1.1.20-beta.1/DictaKey-1.1.20-beta.1.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="V9gFbJhKNSd9yDc/pCMu6yd6SywJbzeQUc4TBeq8ejQWO3smEHgYlFQsgKG/Rlj3or0/Pr0JBB3UDcYm2yQfBw==" length="99603251" />
+        </item>
+        <item>
             <title>Version 1.1.19</title>
             
             <pubDate>Fri, 13 Nov 2026 17:58:16 +0000</pubDate>
