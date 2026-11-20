@@ -8,6 +8,19 @@
         <description>DictaKey macOS auto-update feed</description>
         <language>en</language>
         <item>
+            <title>Version 1.2.0-beta.8</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Fri, 20 Nov 2026 08:31:05 +0000</pubDate>
+            <sparkle:version>165</sparkle:version>
+            <sparkle:shortVersionString>1.2.0-beta.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink>https://github.com/efimch/DictaKey-releases/releases/tag/v1.2.0-beta.8</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://github.com/efimch/DictaKey-releases/releases/download/v1.2.0-beta.8/Sgolosa-1.2.0-beta.8.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="733QVxg7lNC/FPHQTm3oGk9Ox9/2I02Fkgru5/tPq2gAwnaDDBlQStomC3PSoVgvGGGGAklIhwBJN8Oa5QHuDQ==" length="98515027" />
+        </item>
+        <item>
             <title>Version 1.2.0-beta.7</title>
             <sparkle:channel>beta</sparkle:channel>
             <pubDate>Thu, 19 Nov 2026 19:44:17 +0000</pubDate>
