@@ -1,26 +1,33 @@
-# DictaKey Releases
+# «С голоса» — сборки и обновления
 
-Public download & auto-update channel for **DictaKey** — offline speech-to-text dictation for macOS.
+**«С голоса»** — диктовка для Mac: распознаёт речь и вставляет текст туда, где стоит курсор. Работает целиком на компьютере — голос и текст никуда не отправляются. До версии 1.2.0 приложение называлось DictaKey.
 
-The application source code is proprietary and lives in a private repository. This repo only hosts:
+Исходный код закрыт. В этом репозитории лежат только:
 
-- **Binary releases** (`.dmg`, `.zip`) — see the [Releases page](https://github.com/efimch/DictaKey-releases/releases/latest).
-- **Sparkle auto-update feed** — `appcast.xml` on the [`gh-pages` branch](https://efimch.github.io/DictaKey-releases/appcast.xml).
+- **сборки** — образ диска и архив обновления, на [странице выпусков](https://github.com/efimch/DictaKey-releases/releases/latest);
+- **лента обновлений** — `appcast.xml` на ветке `gh-pages`; установленное приложение сверяется с ней само.
 
-## Download
+## Установка
 
-Grab the latest `DictaKey.dmg` from [**Releases → Latest**](https://github.com/efimch/DictaKey-releases/releases/latest), open it, and drag DictaKey into `/Applications`.
+1. Скачайте `Sgolosa.dmg` из [последнего выпуска](https://github.com/efimch/DictaKey-releases/releases/latest), откройте его и перетащите «С голоса» в «Программы».
+2. При первом запуске macOS не откроет приложение сразу: оно подписано собственным сертификатом разработчика и не заверено Apple. Разрешите запуск в «Системные настройки» → «Конфиденциальность и безопасность».
 
-Minimum system: macOS 14 (Sonoma), Apple Silicon.
+Нужны Mac с процессором Apple и macOS 14 или новее.
 
-## Auto-updates
+## Лицензия
 
-Installed copies check this feed automatically via [Sparkle](https://sparkle-project.org). Updates are signed with EdDSA — the public key is baked into the app at build time.
+Первые 14 дней все функции работают без ограничений. Дальше обычная диктовка остаётся бесплатной, а LLM-слой, перевод и правка голосом — до 2 500 слов в неделю; лицензия снимает это ограничение.
 
-## Support
+## Обновления
 
-Issues and feedback: _contact TBD_.
+Приложение проверяет обновления само, через [Sparkle](https://sparkle-project.org). Архив обновления подписан (EdDSA), ключ проверки встроен в приложение.
+
+## Связь
+
+Поддержка: support@sgolosa.ru. Сайт: https://sgolosa.ru (готовится).
 
 ---
+
+**In English.** «С голоса» (“S golosa”, formerly DictaKey) is an offline dictation app for macOS (Apple silicon, macOS 14 or later). This repository hosts its binary releases and the Sparkle update feed; the source code is private. For the first 14 days everything works without limits; after that plain dictation stays free, and the LLM layer, translation and editing by voice are limited to 2,500 words a week unless a licence is entered.
 
 © Efim Chernov. All rights reserved.
